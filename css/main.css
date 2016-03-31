@@ -93,7 +93,7 @@ nav {
 	width: 25%;
 	padding: 10px;
 	text-align: center;
-	margin: 5% 1!;
+	margin: 5% 1%;
 	font-weight: 400;
 }
 
@@ -291,4 +291,496 @@ footer p {
 
 .socialMedia a:first-child {
 	padding: 7px 9px;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 1210px) {
+	.features {
+		padding-left: 11%;
+	}
+}
+
+@media (max-width: 1184px) {
+	.features {
+		padding-left: 9%;
+	}
+}
+
+@media (max-width: 1159px) {
+	.features {
+		padding-left: 9%;
+	}
+}
+
+@media (max-width: 1114px) {
+	.features {
+		padding-left: 5%;
+	}
+}
+
+@media (max-width: 1105px) {
+	.features .box {
+		width: 27%;
+	}
+}
+
+@media (max-width: 1029px) {
+	.features .box {
+		width: 26%;
+	}
+}
+
+@media (max-width: 993px) {
+	.features {
+		padding-left: 3%;
+	}
+}
+
+@media (max-width: 972px) {
+	.features {
+		padding-left: 1%;
+	}
+}
+
+@media (max-width: 953px) {
+	.features {
+		padding-left: 0%;
+	}
+}
+
+@media (max-width: 943px) {
+	.features .box {
+		width: 29%;
+		padding: 3px;
+	}
+}
+
+@media (max-width: 911px) {
+	.features .box {
+		width: 30%;
+		padding: 2px 0px;
+	}
+}
+
+@media (max-width: 892px) {
+	form div button {
+		left: 0px;
+		margin-top: 30px;
+	}
+
+	form div span {
+		right: 5px;	
+	}
+
+	form > input,
+	form > textarea {
+		width: 40%;
+	} 
+
+}
+
+@media (max-width: 893px) {
+	form div button {
+		left: 100px;
+		margin-top: 27px;
+		display: block;
+	}
+}
+
+@media (max-width: 882px) {
+	.features .box {
+		width: 31%;
+		padding: 2px 0px;
+	}
+}
+
+@media (max-width: 872px) {
+	.features {
+		padding-left: 5%;
+	}
+
+	.box h4 {
+		font-size: 20px;
+	}
+
+	.box p {
+		font-size: 13px;
+	}
+}
+
+@media (max-width: 821px) {
+	.features .box {
+		width: 23%;
+		margin: 5% 5%;
+	}
+
+	.features {
+		padding-left: 10%;
+		margin-left: -1%;
+		margin-right: 8%;
+	}
+
+	.box h4 {
+		font-size: 18px;
+	}
+
+	.box p {
+		font-size: 12px;
+	}
+
+	form div button {
+		left: 75px;
+	}
+}
+
+@media (max-width: 810px) {
+	.features {
+		margin-left: -1%;
+	}
+}
+
+@media (max-width: 802px) {
+	.features {
+		padding-left: -1%;
+	}
+}
+
+@media (max-width: 775px) {
+	.features {
+		margin-left: -1%;
+	}
+}
+
+@media (max-width: 763px) {
+	.features .box {
+		width: 23%;
+	}
+}
+
+@media (max-width: 748px) {
+	.features .box {
+		width: 21%;
+	}
+}
+
+@media (max-width: 733px) {
+	.features {
+		margin-left: -2%;
+	}
+}
+
+@media (max-width: 723px) {
+	.features {
+		margin-left: -3%;
+	}
+}
+
+@media (max-width: 716px) {
+	.features {
+		padding-left: 9%;
+	}
+}
+
+@media (max-width: 710px) {
+	.socialMedia {
+		right: 100px;
+	}
+
+	form div button {
+		left: 45px;
+		margin-top: 20px;
+		display: block;
+	}
+
+	.features .box {
+		width: 22%;
+	}
+
+	.features {
+		padding-left: 13%;
+	}
+}
+
+@media (max-width: 707px) {
+	.features {
+		padding-left: 11%;
+	}
+}
+
+@media (max-width: 692px) {
+	.features {
+		padding-left: 10%;
+	}
+}
+
+@media (max-width: 684px) {
+	.features {
+		padding-left: 8%;
+	}
+
+	.box p {
+		display: none;
+	}
+}
+
+@media (max-width: 667px) {
+	.features .box {
+		width: 21%;
+	}
+
+	.features {
+		padding-left: 15%;
+	}
+}
+
+@media (max-width: 648px) {
+	form > input,
+	form > textarea {
+		width: 50%;
+	} 
+}
+
+@media (max-width: 642px) {
+	.features .box {
+		width: 22%;
+	}
+}
+
+@media (max-width: 636px) {
+	form div button {
+		left: 25%;
+	}
+}
+
+@media (max-width: 622px) {
+	.features .box {
+		width: 21%;
+	}
+}
+
+@media (max-width: 600px) {
+	footer p {
+		left: -20px;
+		font-size: 12px;
+	}
+
+	.socialMedia {
+		right: 15px;
+		top: 10px;
+	}
+
+	form div button {
+		left: 25%;
+	}
+}
+
+@media (max-width: 500px) {
+	form div button {
+		margin: 20% -15%;
+	}
+
+	form > input,
+	form > textarea {
+		width: 60%;
+	}
+}
+
+@media (max-width: 468px) {
+	.features .iconBox {
+		width: 70px;
+		height: 70px;
+	}
+
+	.iconBox i {
+		padding-top: 15px;
+	}
+
+	.features .box {
+		width: 21%;
+	}
+
+	.box h4 {
+		font-size: 17px;
+	}
+}
+
+@media (max-width: 463px) {
+	.box h4 {
+		font-size: 15px;
+	}
+}
+
+@media (max-width: 410px) {
+	.box h4 {
+		font-size: 13px;
+	}
+
+	form div button {
+		margin: 20% -30%;
+	}
+}
+
+@media (max-width: 416px) {
+	.cta h1 {
+		font-size: 110px;
+	}
+
+	.cta p {
+		font-size: 18px;
+	}
+
+	form div {
+		width: 60%;
+	}
+}
+
+@media (max-width: 400px) {
+	form div button {
+		margin: 20% 0%;
+	}
+
+	form > input,
+	form > textarea {
+		width: 70%;
+	}
+}
+
+/*APPLE iPHONE6 RESPONSIVE*/
+
+@media (max-width: 375px) {
+	.cta {
+		height: 600px;
+	}
+
+	.cta h1 {
+		font-size: 100px;
+	}
+
+	.cta p {
+		font-size: 16px;
+	}
+
+	.features {
+		padding-left: 1%;
+	}
+
+	.features .box {
+		width: 19%;
+		margin-left: 27px;
+		margin-right: 15px;
+	}
+
+	.features p {
+		display: none;
+	}
+
+	.box h4 {
+		font-size: 10px;
+		margin-left: 31%;
+	}
+
+	form > input, 
+	form > textarea {
+		width: 80%;
+	}
+
+	form div {
+		width: 100%;
+	}
+
+	footer p {
+		left: -35px;
+		font-size: 10px;
+	}
+
+	.socialMedia {
+		right: 0px;
+		top: 7px;
+	}
+}
+
+/*APPLE IPHONE 5 - RESPONSIVE*/
+@media (max-width: 320px) {
+	.cta {
+		height: 600px;
+	}
+
+	.cta h1 {
+		font-size: 88px;
+	}
+
+	.cta p {
+		font-size: 14px;
+	}
+
+	.info h2 {
+		font-size: 37px;
+	}
+
+	.info p {
+		font-size: 13px;
+	}
+
+	.features {
+		padding-left: 4%;
+	}
+
+	.features .box {
+		width: 19%;
+		margin-left: 23px;
+		margin-right: 15px;
+	}
+
+	.features .iconBox {
+		width: 70px;
+		height: 70px;
+	}
+
+	.features p {
+		display: none;
+	}
+
+	.iconBox i {
+		padding-top: 15%;
+	}
+
+	.box h4 {
+		font-size: 7px;
+		margin-left: 31%;
+	}
+
+	form > input, 
+	form > textarea {
+		width: 115%;
+	}
+
+	form div {
+		width: 100%;
+	}
+
+	footer p {
+		left: -35px;
+		font-size: 10px;
+	}
+
+	.socialMedia {
+		right: 0px;
+		top: -25px;
+	}
+
+	.contact form {
+		margin-left: -50%;
+	}
+
+	.contact h2 {
+		font-size: 38px;
+	}
+
+	form div span {
+		right: -25px;
+	}
+
+	form div button {
+		left: 75px;
+	}
 }
